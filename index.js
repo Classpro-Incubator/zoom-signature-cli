@@ -2,8 +2,9 @@
 
 const crypto = require("crypto");
 const program = require("commander");
+const { version, description } = require("./package.json");
 
-program.version("0.0.1").description("Zoom signature generatore");
+program.version(version).description(description);
 program
   .requiredOption("-k, --api-key <value>", "Zoom JWT API Key")
   .requiredOption("-s, --api-secret <value>", "Zoom JWT API Secret")
