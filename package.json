@@ -1,0 +1,13 @@
+{
+  "name": "zoom-signature-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "zoom-signature": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^5.1.0"
+  }
+}
